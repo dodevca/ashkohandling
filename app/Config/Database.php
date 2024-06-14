@@ -33,9 +33,9 @@ class Database extends Config
     public $default = [
         'DSN'      => '',
         'hostname' => 'localhost',
-        'username' => 'dirgrosc_ASHKO_Admin',
-        'password' => 'ASHKOAdmin123',
-        'database' => 'dirgrosc_ashkohandling',
+        'username' => 'root',
+        'password' => '',
+        'database' => '',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
