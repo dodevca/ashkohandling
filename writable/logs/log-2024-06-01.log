@@ -1,0 +1,212 @@
+ERROR - 2024-06-01 16:39:19 --> mysqli_sql_exception: Unknown column 'date' in 'order clause' in /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/ashkohandling.com/app/Controllers/Gallery.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Gallery->index()
+#6 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-01 16:39:19 --> Unknown column 'date' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Gallery.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 19:49:18 --> mysqli_sql_exception: Unknown column 'date' in 'order clause' in /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/ashkohandling.com/app/Controllers/Gallery.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Gallery->index()
+#6 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-01 19:49:18 --> Unknown column 'date' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Gallery.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 19:54:42 --> mysqli_sql_exception: Unknown column 'date' in 'order clause' in /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/ashkohandling.com/app/Controllers/Gallery.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Gallery->index()
+#6 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-01 19:54:42 --> Unknown column 'date' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Gallery.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 19:54:47 --> mysqli_sql_exception: Unknown column 'date' in 'order clause' in /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/ashkohandling.com/app/Controllers/Gallery.php(38): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Gallery->index()
+#6 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-01 19:54:47 --> Unknown column 'date' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Gallery.php(38): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 20:02:28 --> mysqli_sql_exception: Unknown column 'description' in 'field list' in /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/ashkohandling.com/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/ashkohandling.com/app/Controllers/Setting.php(218): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+#6 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-01 20:02:28 --> Unknown column 'description' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(218): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-06-01 20:45:40 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /home/dirgrosc/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/dirgrosc/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /home/dirgrosc/ashkohandling.com/app/Controllers/Reservation.php(130): App\Models\EmailModel->sendNotification()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-06-01 20:45:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-06-01 20:45:40 --> 
+ERROR - 2024-06-01 20:46:10 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /home/dirgrosc/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/dirgrosc/ashkohandling.com/app/Models/EmailModel.php(34): CodeIgniter\Email\Email->send()
+#6 /home/dirgrosc/ashkohandling.com/app/Controllers/Reservation.php(131): App\Models\EmailModel->sendTicket()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-06-01 20:46:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-06-01 20:46:10 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-06-01 20:54:02 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /home/dirgrosc/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/dirgrosc/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /home/dirgrosc/ashkohandling.com/app/Controllers/Reservation.php(130): App\Models\EmailModel->sendNotification()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-06-01 20:54:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-06-01 20:54:02 --> 
+ERROR - 2024-06-01 20:54:32 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /home/dirgrosc/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /home/dirgrosc/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /home/dirgrosc/ashkohandling.com/app/Models/EmailModel.php(34): CodeIgniter\Email\Email->send()
+#6 /home/dirgrosc/ashkohandling.com/app/Controllers/Reservation.php(131): App\Models\EmailModel->sendTicket()
+#7 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /home/dirgrosc/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /home/dirgrosc/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2024-06-01 20:54:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-06-01 20:54:32 --> Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-06-01 21:00:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-06-01 21:00:49 --> 220-server148.web-hosting.com ESMTP Exim 4.96.2 #2 Sat, 01 Jun 2024 10:00:47 -0400 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+hello: 250-server148.web-hosting.com Hello ashkohandling.com [162.213.255.50]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+ERROR - 2024-06-01 21:00:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-06-01 21:00:55 --> 220-server148.web-hosting.com ESMTP Exim 4.96.2 #2 Sat, 01 Jun 2024 10:00:47 -0400 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+hello: 250-server148.web-hosting.com Hello ashkohandling.com [162.213.255.50]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPECONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+Failed to authenticate password. Error: 535 Incorrect authentication data
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535 Incorrect authentication data
+

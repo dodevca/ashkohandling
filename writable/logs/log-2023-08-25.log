@@ -1,0 +1,539 @@
+CRITICAL - 2023-08-25 19:25:58 --> Undefined variable $title
+in APPPATH/Views/layouts/dashboard.php on line 5.
+ 1 APPPATH/Views/layouts/dashboard.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Dashboard.php(8): view()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:32:18 --> Undefined array key 0
+in APPPATH/Controllers/Setting.php on line 173.
+ 1 APPPATH/Controllers/Setting.php(173): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:36:04 --> Call to a member function isValid() on array
+in APPPATH/Controllers/Setting.php on line 154.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:43:59 --> is_dir(): open_basedir restriction in effect. File(../../public/images/album/) is not within the allowed path(s): (/www/wwwroot/ashkohandling.com/:/tmp/)
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 175.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/HTTP/Files/UploadedFile.php(175): is_dir()
+ 3 SYSTEMPATH/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath()
+ 4 APPPATH/Controllers/Setting.php(159): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:44:48 --> Could not move file phpkLSTri to ../public/images/album/ ()
+in SYSTEMPATH/HTTP/Files/UploadedFile.php on line 149.
+ 1 SYSTEMPATH/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed()
+ 2 APPPATH/Controllers/Setting.php(159): CodeIgniter\HTTP\Files\UploadedFile->move()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 19:47:24 --> mysqli_sql_exception: Operand should contain 1 column(s) in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(164): CodeIgniter\Database\BaseBuilder->insert()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 19:47:24 --> Operand should contain 1 column(s)
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(164): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:48:58 --> Undefined constant "App\Controllers\json_encode"
+in APPPATH/Controllers/Setting.php on line 164.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:49:24 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+in APPPATH/Controllers/Setting.php on line 122.
+ 1 APPPATH/Controllers/Setting.php(122): count()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->gallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:49:56 --> Undefined array key "name"
+in APPPATH/Views/setting-gallery.php on line 71.
+ 1 APPPATH/Views/setting-gallery.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting-gallery.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Setting.php(125): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->gallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:51:51 --> Undefined variable $total
+in APPPATH/Views/setting-gallery.php on line 72.
+ 1 APPPATH/Views/setting-gallery.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting-gallery.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Setting.php(125): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->gallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 19:55:05 --> Undefined array key "images"
+in APPPATH/Views/setting-gallery.php on line 71.
+ 1 APPPATH/Views/setting-gallery.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting-gallery.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Setting.php(125): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->gallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:20:16 --> Undefined array key "titles"
+in APPPATH/Views/setting-gallery.php on line 87.
+ 1 APPPATH/Views/setting-gallery.php(87): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting-gallery.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Setting.php(127): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->gallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:26:14 --> Undefined variable $key
+in APPPATH/Views/setting-airport.php on line 74.
+ 1 APPPATH/Views/setting-airport.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting-airport.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Setting.php(52): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->airport()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:26:28 --> Undefined array key "title"
+in APPPATH/Views/setting-airport.php on line 83.
+ 1 APPPATH/Views/setting-airport.php(83): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting-airport.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Setting.php(52): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->airport()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:26:43 --> Undefined array key "title"
+in APPPATH/Views/setting-airport.php on line 91.
+ 1 APPPATH/Views/setting-airport.php(91): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting-airport.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Setting.php(52): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->airport()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 20:46:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Sit Amet' at line 1 in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(185): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-25 20:46:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Sit Amet' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Setting.php(185): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 20:47:04 --> mysqli_sql_exception: Table 'ashko.gallery' doesn't exist in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(188): CodeIgniter\Database\BaseBuilder->delete()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 20:47:04 --> Table 'ashko.gallery' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2391): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(188): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:48:54 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Setting.php on line 185.
+ 1 APPPATH/Controllers/Setting.php(185): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:51:55 --> json_decode() expects at least 1 argument, 0 given
+in APPPATH/Controllers/Setting.php on line 193.
+ 1 APPPATH/Controllers/Setting.php(193): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:52:47 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+in APPPATH/Controllers/Setting.php on line 195.
+ 1 APPPATH/Controllers/Setting.php(195): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:54:50 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH/Controllers/Setting.php on line 195.
+ 1 APPPATH/Controllers/Setting.php(195): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:55:53 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH/Controllers/Setting.php on line 196.
+ 1 APPPATH/Controllers/Setting.php(196): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:57:05 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH/Controllers/Setting.php on line 196.
+ 1 APPPATH/Controllers/Setting.php(196): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:57:08 --> json_decode(): Argument #1 ($json) must be of type string, stdClass given
+in APPPATH/Controllers/Setting.php on line 196.
+ 1 APPPATH/Controllers/Setting.php(196): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:58:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/Setting.php on line 197.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:59:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH/Controllers/Setting.php on line 197.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 20:59:59 --> json_decode(): Argument #1 ($json) must be of type string, array given
+in APPPATH/Controllers/Setting.php on line 198.
+ 1 APPPATH/Controllers/Setting.php(198): json_decode()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 21:00:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getResutl()
+in APPPATH/Controllers/Setting.php on line 219.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 21:00:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH/Controllers/Setting.php on line 219.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 21:01:25 --> unlink(../public/images/album1692970172_80142f576e37ff3867e1.jpg): No such file or directory
+in APPPATH/Controllers/Setting.php on line 204.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Setting.php(204): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 21:04:05 --> Undefined variable $itle
+in APPPATH/Controllers/Setting.php on line 194.
+ 1 APPPATH/Controllers/Setting.php(194): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->delGallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 21:07:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH/Controllers/Setting.php on line 52.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->airport()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 21:10:16 --> mysqli_sql_exception: Unknown column 'name' in 'order clause' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(130): CodeIgniter\Database\BaseBuilder->get()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->gallery()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 21:10:16 --> Unknown column 'name' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(130): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->gallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 21:11:55 --> mysqli_sql_exception: Duplicate entry 'Lorem Ipsum' for key 'album.title' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(182): CodeIgniter\Database\BaseBuilder->insert()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 21:11:55 --> Duplicate entry 'Lorem Ipsum' for key 'album.title'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(182): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addGallery()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 21:57:46 --> mysqli_sql_exception: Table 'ashko.partner' doesn't exist in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(284): CodeIgniter\Database\BaseBuilder->get()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->partner()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 21:57:46 --> Table 'ashko.partner' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(284): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->partner()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 22:17:05 --> mysqli_sql_exception: Table 'ashko.partner' doesn't exist in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(284): CodeIgniter\Database\BaseBuilder->get()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->partner()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 22:17:05 --> Table 'ashko.partner' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(284): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->partner()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 22:24:52 --> Undefined variable $query
+in APPPATH/Controllers/Setting.php on line 284.
+ 1 APPPATH/Controllers/Setting.php(284): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->partner()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 22:25:10 --> mysqli_sql_exception: Unknown column 'images' in 'field list' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(284): CodeIgniter\Database\BaseBuilder->get()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->partner()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 22:25:10 --> Unknown column 'images' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(284): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->partner()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 22:29:23 --> mysqli_sql_exception: Unknown column 'image' in 'field list' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(284): CodeIgniter\Database\BaseBuilder->get()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->partner()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 22:29:23 --> Unknown column 'image' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(284): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->partner()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 22:41:14 --> Call to undefined function App\Controllers\now()
+in APPPATH/Controllers/Setting.php on line 325.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addPartner()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 22:42:24 --> Undefined variable $imagaName
+in APPPATH/Controllers/Setting.php on line 334.
+ 1 APPPATH/Controllers/Setting.php(334): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addPartner()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 22:44:00 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(340): CodeIgniter\Database\BaseBuilder->insert()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->addPartner()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 22:44:00 --> Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(340): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addPartner()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 22:44:17 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(340): CodeIgniter\Database\BaseBuilder->insert()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->addPartner()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 22:44:17 --> Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(340): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addPartner()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-25 22:44:25 --> mysqli_sql_exception: Unknown column 'title' in 'field list' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Setting.php(340): CodeIgniter\Database\BaseBuilder->insert()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Setting->addPartner()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-25 22:44:25 --> Unknown column 'title' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Setting.php(340): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->addPartner()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-25 22:45:27 --> Undefined array key "names"
+in APPPATH/Views/setting-partner.php on line 79.
+ 1 APPPATH/Views/setting-partner.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting-partner.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Setting.php(292): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->partner()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

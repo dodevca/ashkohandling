@@ -1,0 +1,369 @@
+ERROR - 2024-05-22 20:49:38 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-22 20:49:38 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 20:50:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-22 20:50:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 20:50:55 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-22 20:50:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 20:51:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-22 20:51:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 20:51:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-22 20:51:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 20:52:20 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-22 20:52:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 20:57:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'dirgantaraaviasi'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2024-05-22 20:57:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 21:01:37 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-22 21:01:37 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 21:01:39 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-22 21:01:39 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 21:01:40 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-22 21:01:40 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 21:01:45 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-22 21:01:45 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 21:01:46 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-22 21:01:46 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 21:03:33 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-22 21:03:33 --> Table 'dirgrosc_ashkohandling.airport' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-22 21:06:41 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-22 21:06:41 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

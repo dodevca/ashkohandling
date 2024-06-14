@@ -1,0 +1,20 @@
+[22-May-2024 13:44:28 UTC] PHP Warning:  require(/home/dirgrosc/public_html/ashkohandling.com/public/../core/app/Config/Paths.php): Failed to open stream: No such file or directory in /home/dirgrosc/public_html/ashkohandling.com/public/index.php on line 32
+[22-May-2024 13:44:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dirgrosc/public_html/ashkohandling.com/public/../core/app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dirgrosc/public_html/ashkohandling.com/public/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/dirgrosc/public_html/ashkohandling.com/public/index.php on line 32
+[22-May-2024 13:44:30 UTC] PHP Warning:  require(/home/dirgrosc/public_html/ashkohandling.com/public/../core/app/Config/Paths.php): Failed to open stream: No such file or directory in /home/dirgrosc/public_html/ashkohandling.com/public/index.php on line 32
+[22-May-2024 13:44:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dirgrosc/public_html/ashkohandling.com/public/../core/app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dirgrosc/public_html/ashkohandling.com/public/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/dirgrosc/public_html/ashkohandling.com/public/index.php on line 32
+[22-May-2024 13:44:33 UTC] PHP Warning:  require(/home/dirgrosc/public_html/ashkohandling.com/public/../core/app/Config/Paths.php): Failed to open stream: No such file or directory in /home/dirgrosc/public_html/ashkohandling.com/public/index.php on line 32
+[22-May-2024 13:44:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dirgrosc/public_html/ashkohandling.com/public/../core/app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dirgrosc/public_html/ashkohandling.com/public/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/dirgrosc/public_html/ashkohandling.com/public/index.php on line 32
+[22-May-2024 13:47:50 UTC] PHP Warning:  require(/home/dirgrosc/public_html/ashkohandling.com/public/../core/app/Config/Paths.php): Failed to open stream: No such file or directory in /home/dirgrosc/public_html/ashkohandling.com/public/index.php on line 32
+[22-May-2024 13:47:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/dirgrosc/public_html/ashkohandling.com/public/../core/app/Config/Paths.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/dirgrosc/public_html/ashkohandling.com/public/index.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/dirgrosc/public_html/ashkohandling.com/public/index.php on line 32

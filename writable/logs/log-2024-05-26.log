@@ -1,0 +1,360 @@
+ERROR - 2024-05-26 00:17:21 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 00:17:21 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 00:18:19 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 00:18:19 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 02:55:21 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 02:55:21 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 03:59:35 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 03:59:35 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 04:38:54 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 04:38:54 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 05:25:41 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 05:25:41 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 06:00:31 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 06:00:31 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 07:11:02 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 07:11:02 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 08:57:24 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 08:57:24 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 10:39:52 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 10:39:52 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 11:40:54 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 11:40:54 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 11:41:30 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 11:41:30 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 11:42:06 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 11:42:06 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 11:42:42 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 11:42:42 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 16:59:53 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 16:59:53 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 18:46:16 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 18:46:16 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 18:46:16 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 18:46:16 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 21:32:47 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 21:32:47 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 22:05:33 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 22:05:33 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-26 22:05:35 --> mysqli_sql_exception: Table 'dirgrosc_ashkohandling.airport' doesn't exist in /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/dirgrosc/public_html/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/dirgrosc/public_html/ashkohandling.com/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/dirgrosc/public_html/ashkohandling.com/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/dirgrosc/public_html/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/dirgrosc/public_html/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-26 22:05:35 --> Call to a member function getResult() on bool
+in APPPATH/Controllers/Home.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

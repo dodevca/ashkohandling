@@ -1,0 +1,27 @@
+CRITICAL - 2023-08-23 19:25:40 --> Undefined variable $title
+in APPPATH/Views/layouts/dashboard.php on line 5.
+ 1 APPPATH/Views/layouts/dashboard.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/layouts/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 6 APPPATH/Controllers/Setting.php(19): view()
+ 7 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->index()
+ 8 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-23 19:32:09 --> Array to string conversion
+in APPPATH/Views/partials/breadcrumb.php on line 7.
+ 1 APPPATH/Views/partials/breadcrumb.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/partials/breadcrumb.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(431): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/setting.php(5): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/setting.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/Setting.php(19): view()
+10 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->index()
+11 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

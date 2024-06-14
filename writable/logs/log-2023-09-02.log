@@ -1,0 +1,11 @@
+CRITICAL - 2023-09-02 22:39:26 --> Undefined variable $title
+in APPPATH/Views/test.php on line 5.
+ 1 APPPATH/Views/test.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/test.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(60): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->test()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

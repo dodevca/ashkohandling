@@ -1,0 +1,714 @@
+CRITICAL - 2023-09-03 00:07:34 --> file_get_contents(https://www.blogger.com/video.g?token=AD6v5dy1r8SKvj9G5FcG2yC7mBXsYCQuPGv68x6DU5lhDBWzDJ2pDRrCG8k1K-XCXc7HkLGJT6wu8yHoS0w7M2cqizHo4CoU2vSOPd2JX-plF-gPIFu1YUI_T5bFtIJCAiq0ySjwdXP2): Failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+
+in APPPATH/Controllers/Home.php on line 60.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(60): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->test()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 00:10:21 --> file_get_contents(https://www.blogger.com/video.g?token=AD6v5dy1r8SKvj9G5FcG2yC7mBXsYCQuPGv68x6DU5lhDBWzDJ2pDRrCG8k1K-XCXc7HkLGJT6wu8yHoS0w7M2cqizHo4CoU2vSOPd2JX-plF-gPIFu1YUI_T5bFtIJCAiq0ySjwdXP2): Failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+
+in APPPATH/Controllers/Home.php on line 75.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(75): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->test()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 00:10:27 --> file_get_contents(https://www.blogger.com/video.g?token=AD6v5dy1r8SKvj9G5FcG2yC7mBXsYCQuPGv68x6DU5lhDBWzDJ2pDRrCG8k1K-XCXc7HkLGJT6wu8yHoS0w7M2cqizHo4CoU2vSOPd2JX-plF-gPIFu1YUI_T5bFtIJCAiq0ySjwdXP2): Failed to open stream: HTTP request failed! HTTP/1.1 429 Too Many Requests
+
+in APPPATH/Controllers/Home.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(76): file_get_contents()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->test()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 00:20:13 --> 6 : Could not resolve: test2 (Misformatted domain name)
+in SYSTEMPATH/HTTP/CURLRequest.php on line 655.
+ 1 SYSTEMPATH/HTTP/CURLRequest.php(655): CodeIgniter\HTTP\Exceptions\HTTPException::forCurlError()
+ 2 SYSTEMPATH/HTTP/CURLRequest.php(363): CodeIgniter\HTTP\CURLRequest->sendRequest()
+ 3 SYSTEMPATH/HTTP/CURLRequest.php(136): CodeIgniter\HTTP\CURLRequest->send()
+ 4 SYSTEMPATH/HTTP/CURLRequest.php(169): CodeIgniter\HTTP\CURLRequest->request()
+ 5 APPPATH/Controllers/Home.php(62): CodeIgniter\HTTP\CURLRequest->get()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->test()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 00:41:53 --> Class "App\Models\MailModel" not found
+in APPPATH/Controllers/Reservation.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Reservation->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 00:42:08 --> Call to a member function setFrom() on null
+in APPPATH/Models/EmailModel.php on line 16.
+ 1 APPPATH/Controllers/Reservation.php(17): App\Models\EmailModel->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Reservation->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 00:42:48 --> Undefined variable $from
+in APPPATH/Models/EmailModel.php on line 16.
+ 1 APPPATH/Models/EmailModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Reservation.php(17): App\Models\EmailModel->__construct()
+ 3 SYSTEMPATH/CodeIgniter.php(889): App\Controllers\Reservation->__construct()
+ 4 SYSTEMPATH/CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 00:43:33 --> Call to a member function setTo() on null
+in APPPATH/Models/EmailModel.php on line 22.
+ 1 APPPATH/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 00:45:59 --> Undefined variable $subject
+in APPPATH/Models/EmailModel.php on line 23.
+ 1 APPPATH/Models/EmailModel.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+ 3 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 4 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-03 00:46:13 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(27): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 00:46:13 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 00:46:13 --> 
+ERROR - 2023-09-03 00:53:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(27): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 00:53:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 00:53:31 --> 
+ERROR - 2023-09-03 00:53:41 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(27): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 00:53:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 00:53:41 --> 
+ERROR - 2023-09-03 00:57:10 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(27): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 00:57:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 00:57:10 --> 
+ERROR - 2023-09-03 00:58:00 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(27): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 00:58:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 00:58:00 --> 
+ERROR - 2023-09-03 01:08:43 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(25): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 01:08:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 01:08:43 --> 
+ERROR - 2023-09-03 01:10:16 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(25): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 01:10:16 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 01:10:16 --> 
+ERROR - 2023-09-03 01:12:10 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 01:12:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 01:12:10 --> 
+ERROR - 2023-09-03 15:46:54 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 15:46:54 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 15:46:54 --> 
+ERROR - 2023-09-03 16:21:35 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to mail.ashkohandling.com:25 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 16:21:35 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 16:21:35 --> 
+ERROR - 2023-09-03 16:22:18 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to mail.ashkohandling.com:25 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 16:22:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 16:22:18 --> 
+ERROR - 2023-09-03 16:31:28 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to mail.ashkohandling.com:25 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 16:31:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 16:31:28 --> 
+ERROR - 2023-09-03 16:31:48 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to mail.ashkohandling.com:25 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 16:31:48 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 16:31:48 --> 
+ERROR - 2023-09-03 16:32:53 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to mail.ashkohandling.com:25 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 16:32:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 16:32:53 --> 
+ERROR - 2023-09-03 16:34:36 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 16:34:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 16:34:36 --> 
+ERROR - 2023-09-03 16:55:39 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 16:55:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 16:55:39 --> 
+ERROR - 2023-09-03 17:00:44 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 17:00:44 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 17:00:44 --> 
+ERROR - 2023-09-03 17:04:05 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): Unable to connect to tls://mail.ashkohandling.com:465 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 17:04:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 17:04:05 --> 
+ERROR - 2023-09-03 21:33:17 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 21:33:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 21:33:17 --> 
+ERROR - 2023-09-03 21:35:41 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 21:35:41 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 21:35:41 --> 
+ERROR - 2023-09-03 21:45:28 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 21:45:28 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 21:45:28 --> 
+ERROR - 2023-09-03 21:53:43 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 21:53:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 21:53:43 --> 
+ERROR - 2023-09-03 21:54:43 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 21:54:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 21:54:43 --> 
+ERROR - 2023-09-03 21:58:00 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 21:58:00 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 21:58:00 --> 
+ERROR - 2023-09-03 22:03:46 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:03:46 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:03:46 --> 
+ERROR - 2023-09-03 22:13:05 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:13:05 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:13:05 --> 
+ERROR - 2023-09-03 22:16:10 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:16:10 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:16:10 --> 
+ERROR - 2023-09-03 22:19:33 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:19:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:19:33 --> 
+ERROR - 2023-09-03 22:25:25 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:25:25 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:25:25 --> 
+ERROR - 2023-09-03 22:27:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:27:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:27:31 --> 
+ERROR - 2023-09-03 22:28:34 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1416F086:SSL routines:tls_process_server_certificate:certificate verify failed in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:28:34 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:28:34 --> 
+ERROR - 2023-09-03 22:29:53 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:29:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:29:53 --> 
+ERROR - 2023-09-03 22:31:03 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:31:03 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:31:03 --> 
+ERROR - 2023-09-03 22:45:42 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:45:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:45:42 --> 
+ERROR - 2023-09-03 22:47:50 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:47:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:47:50 --> 
+ERROR - 2023-09-03 22:48:07 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:48:07 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:48:07 --> 
+ERROR - 2023-09-03 22:58:15 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Reservation.php(99): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-03 22:58:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-03 22:58:15 --> 
+CRITICAL - 2023-09-03 23:15:55 --> Undefined variable $code
+in APPPATH/Views/reservation-success.php on line 9.
+ 1 APPPATH/Views/reservation-success.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/reservation-success.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Reservation.php(92): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-03 23:17:38 --> unlink(/www/wwwroot/ashkohandling.com/writable/debugbar/debugbar_1693756461.950641.json): No such file or directory
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(76): unlink()
+ 3 SYSTEMPATH/Debug/Toolbar.php(500): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles()
+ 4 SYSTEMPATH/Debug/Toolbar.php(477): CodeIgniter\Debug\Toolbar->format()
+ 5 APPPATH/Config/Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(328): CodeIgniter\Events\Events::trigger()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

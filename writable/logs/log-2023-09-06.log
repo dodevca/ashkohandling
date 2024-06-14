@@ -1,0 +1,144 @@
+ERROR - 2023-09-06 14:01:55 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:587 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(62): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:01:55 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:01:55 --> 
+ERROR - 2023-09-06 14:01:58 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:587 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(62): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:01:58 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:01:58 --> 
+ERROR - 2023-09-06 14:02:33 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:587 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(64): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:02:33 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:02:33 --> 
+ERROR - 2023-09-06 14:03:18 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:587 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(64): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:03:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:03:18 --> 
+ERROR - 2023-09-06 14:03:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:587 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(64): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:03:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:03:31 --> 
+ERROR - 2023-09-06 14:05:52 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:587 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(64): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:05:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:05:52 --> 
+ERROR - 2023-09-06 14:09:20 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:25 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(64): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:09:20 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:09:20 --> 
+ERROR - 2023-09-06 14:10:12 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:25 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(64): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:10:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:10:12 --> 
+ERROR - 2023-09-06 14:10:56 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): unable to connect to mail.dirgantaraaviasi.com:25 (Connection timed out) in /www/wwwroot/ashkohandling.com/system/Email/Email.php:1863
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1863): fsockopen()
+#2 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1777): CodeIgniter\Email\Email->SMTPConnect()
+#3 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1662): CodeIgniter\Email\Email->sendWithSmtp()
+#4 /www/wwwroot/ashkohandling.com/system/Email/Email.php(1560): CodeIgniter\Email\Email->spoolEmail()
+#5 /www/wwwroot/ashkohandling.com/app/Models/EmailModel.php(24): CodeIgniter\Email\Email->send()
+#6 /www/wwwroot/ashkohandling.com/app/Controllers/Home.php(64): App\Models\EmailModel->sendEmail()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Home->test()
+#8 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#9 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#10 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2023-09-06 14:10:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-09-06 14:10:56 --> 

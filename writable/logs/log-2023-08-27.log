@@ -1,0 +1,106 @@
+CRITICAL - 2023-08-27 00:13:12 --> Undefined array key "description"
+in APPPATH/Views/gallery-view.php on line 7.
+ 1 APPPATH/Views/gallery-view.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/gallery-view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Gallery.php(71): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:18:39 --> Undefined array key "description"
+in APPPATH/Views/gallery-view.php on line 7.
+ 1 APPPATH/Views/gallery-view.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/gallery-view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Gallery.php(71): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:23:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH/Controllers/Gallery.php on line 74.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:24:52 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /www/wwwroot/ashkohandling.com/app/Controllers/Gallery.php on line 77
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Gallery.php(77): view()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:25:27 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in /www/wwwroot/ashkohandling.com/app/Controllers/Gallery.php on line 77
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Gallery.php(77): view()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:25:49 --> Undefined variable $title
+in APPPATH/Views/gallery-view.php on line 5.
+ 1 APPPATH/Views/gallery-view.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/gallery-view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Gallery.php(77): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:26:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH/Controllers/Gallery.php on line 78.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:27:51 --> Object of type stdClass is not callable
+in APPPATH/Controllers/Gallery.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:28:10 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH/Controllers/Gallery.php on line 76.
+ 1 APPPATH/Controllers/Gallery.php(76): date()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:30:20 --> Class "App\Controllers\IntlDateFormatter" not found
+in APPPATH/Controllers/Gallery.php on line 63.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:30:40 --> Class "App\Controllers\IntlDateFormatter" not found
+in APPPATH/Controllers/Gallery.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:31:22 --> Undefined array key "description"
+in APPPATH/Views/gallery-view.php on line 7.
+ 1 APPPATH/Views/gallery-view.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/gallery-view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Gallery.php(88): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-27 02:31:54 --> Undefined array key "description"
+in APPPATH/Views/gallery-view.php on line 7.
+ 1 APPPATH/Views/gallery-view.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/gallery-view.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Gallery.php(89): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Gallery->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

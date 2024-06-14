@@ -1,0 +1,853 @@
+ERROR - 2023-09-16 09:49:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'Ashko'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:49:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:51:57 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'Ashko'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:51:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:52:01 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'Ashko'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:52:01 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:52:34 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'Ashko'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:52:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:53:06 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'Ashko'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:53:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:53:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:53:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:47 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:48 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:50 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:51 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:54:53 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:54:53 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:55:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'server72-1.web-hosting.com' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'server72-1.web-hosting.com' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:55:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'server72-1.web-hosting.com' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:55:43 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'server72-1.web-hosting.com' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'server72-1.web-hosting.com' (using password: YES) in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:55:43 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'server72-1.web-hosting.com' (using password: YES)
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 09:55:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'ashkosfy_admin'@'localhost' to database 'ashkosfy_admin' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:171
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(171): mysqli->real_connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' to database '****' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:215
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/ashkosfy/core/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#3 /home/ashkosfy/core/app/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+#4 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Home->index()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-09-16 09:55:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' to database '****'
+in SYSTEMPATH/Database/BaseConnection.php on line 418.
+ 1 SYSTEMPATH/Database/BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+ 3 APPPATH/Controllers/Home.php(31): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 12:00:35 --> Class "App\Controllers\IntlDateFormatter" not found
+in APPPATH/Controllers/Reservation.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 12:01:08 --> Class "App\Controllers\IntlDateFormatter" not found
+in APPPATH/Controllers/Reservation.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 12:02:36 --> Undefined array key "status"
+in APPPATH/Controllers/Reservation.php on line 124.
+ 1 APPPATH/Controllers/Reservation.php(124): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 12:07:12 --> mysqli_sql_exception: Duplicate entry 'rio_ananda_tour-yia1695020400-yia1695906000-10' for key 'uid' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Reservation.php(90): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-16 12:07:12 --> Duplicate entry 'rio_ananda_tour-yia1695020400-yia1695906000-10' for key 'uid'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Reservation.php(90): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 12:07:43 --> mysqli_sql_exception: Duplicate entry 'rio_ananda_tour-yia1695020400-yia1695906000-10' for key 'uid' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Reservation.php(90): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-16 12:07:43 --> Duplicate entry 'rio_ananda_tour-yia1695020400-yia1695906000-10' for key 'uid'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Reservation.php(90): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 12:14:43 --> Undefined variable $agent
+in APPPATH/Views/mail.php on line 11.
+ 1 APPPATH/Views/mail.php(11): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/mail.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Reservation.php(194): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->view()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 12:15:16 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /home/ashkosfy/core/app/Controllers/Reservation.php on line 196
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Reservation.php(196): view()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 12:16:28 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /home/ashkosfy/core/app/Controllers/Reservation.php on line 196
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Reservation.php(196): view()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 12:16:30 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /home/ashkosfy/core/app/Controllers/Reservation.php on line 196
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Reservation.php(196): view()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-16 12:16:39 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /home/ashkosfy/core/app/Controllers/Reservation.php on line 196
+in SYSTEMPATH/Common.php on line 1120.
+ 1 APPPATH/Controllers/Reservation.php(196): view()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 12:21:27 --> mysqli_sql_exception: Duplicate entry 'lorem_ipsum_travel-kno1694841660-kno1694841660-2' for key 'uid' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Reservation.php(90): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-09-16 12:21:27 --> Duplicate entry 'lorem_ipsum_travel-kno1694841660-kno1694841660-2' for key 'uid'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Reservation.php(90): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-16 12:21:36 --> mysqli_sql_exception: Duplicate entry 'lorem_ipsum_travel-kno1694841660-kno1694841660-2' for key 'uid' in /home/ashkosfy/core/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/ashkosfy/core/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/ashkosfy/core/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/ashkosfy/core/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/ashkosfy/core/system/Database/BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query()
+#4 /home/ashkosfy/core/app/Controllers/Reservation.php(90): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/ashkosfy/core/system/CodeIgniter.php(927): App\Controllers\Reservation->submit()
+#6 /home/ashkosfy/core/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /home/ashkosfy/core/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/ashkosfy/public_html/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

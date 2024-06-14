@@ -1,0 +1,523 @@
+CRITICAL - 2023-08-31 00:17:31 --> Cannot unset string offsets
+in APPPATH/Controllers/Dashboard.php on line 75.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:18:13 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Dashboard.php on line 77.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:26:33 --> Too few arguments to function App\Controllers\Dashboard::search(), 0 passed in /www/wwwroot/ashkohandling.com/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Dashboard.php on line 142.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:26:51 --> Too few arguments to function App\Controllers\Dashboard::search(), 0 passed in /www/wwwroot/ashkohandling.com/system/CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH/Controllers/Dashboard.php on line 142.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:43:14 --> Undefined variable $latestQuery
+in APPPATH/Controllers/Dashboard.php on line 167.
+ 1 APPPATH/Controllers/Dashboard.php(167): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:43:24 --> Undefined variable $latestQuery
+in APPPATH/Controllers/Dashboard.php on line 167.
+ 1 APPPATH/Controllers/Dashboard.php(167): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:43:30 --> Undefined variable $latestQuery
+in APPPATH/Controllers/Dashboard.php on line 167.
+ 1 APPPATH/Controllers/Dashboard.php(167): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:49:34 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH/Debug/Exceptions.php on line 177.
+ 1 SYSTEMPATH/Debug/Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError()
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 3 APPPATH/Controllers/Dashboard.php(144): urldecode()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:49:50 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH/Debug/Exceptions.php on line 177.
+ 1 SYSTEMPATH/Debug/Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError()
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 3 APPPATH/Controllers/Dashboard.php(144): urldecode()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:53:42 --> Undefined variable $filter
+in APPPATH/Views/search.php on line 10.
+ 1 APPPATH/Views/search.php(10): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/search.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(181): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 00:55:41 --> Undefined constant "CodeIgniter\Debug\VENDORPATH"
+in SYSTEMPATH/Debug/Exceptions.php on line 177.
+ 1 SYSTEMPATH/Debug/Exceptions.php(157): CodeIgniter\Debug\Exceptions->isFakerDeprecationError()
+ 2 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 3 APPPATH/Controllers/Dashboard.php(144): urldecode()
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 01:19:16 --> mysqli_sql_exception: Unknown column 'T2.title' in 'order clause' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/app/Controllers/Dashboard.php(173): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Dashboard->airport()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-31 01:19:16 --> Unknown column 'T2.title' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Dashboard.php(173): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->airport()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 01:19:31 --> mysqli_sql_exception: Unknown column 'title' in 'order clause' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/app/Controllers/Dashboard.php(173): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Dashboard->airport()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-31 01:19:31 --> Unknown column 'title' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Dashboard.php(173): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->airport()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 01:20:16 --> mysqli_sql_exception: Unknown column 'title' in 'order clause' in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/app/Controllers/Dashboard.php(173): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Dashboard->airport()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-31 01:20:16 --> Unknown column 'title' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Dashboard.php(173): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->airport()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:20:50 --> Undefined variable $or
+in APPPATH/Controllers/Dashboard.php on line 226.
+ 1 APPPATH/Controllers/Dashboard.php(226): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->search()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:28:15 --> Attempt to read property "email" on string
+in APPPATH/Views/agent.php on line 29.
+ 1 APPPATH/Views/agent.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/agent.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(156): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->agent()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:28:29 --> Attempt to read property "email" on string
+in APPPATH/Views/agent.php on line 29.
+ 1 APPPATH/Views/agent.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/agent.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(156): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->agent()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:33:29 --> Undefined array key "latest"
+in APPPATH/Views/list.php on line 27.
+ 1 APPPATH/Views/list.php(27): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(151): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 01:59:33 --> Undefined variable $start
+in APPPATH/Views/schedule.php on line 65.
+ 1 APPPATH/Views/schedule.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/schedule.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(107): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->schedule()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:08:45 --> Call to undefined function App\Controllers\now()
+in APPPATH/Controllers/Dashboard.php on line 37.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:09:51 --> Undefined variable $schedule
+in APPPATH/Views/overview.php on line 17.
+ 1 APPPATH/Views/overview.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/overview.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 02:10:29 --> Undefined variable $content
+in APPPATH/Views/overview.php on line 17.
+ 1 APPPATH/Views/overview.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/overview.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(95): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 08:11:19 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+ORDER BY `date` ASC' at line 3 in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Dashboard.php(172): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 08:11:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+ORDER BY `date` ASC' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Dashboard.php(172): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 08:14:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+ORDER BY `agent` ASC' at line 3 in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Dashboard.php(172): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 08:14:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+ORDER BY `agent` ASC' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Dashboard.php(172): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 08:14:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+ORDER BY `agent` ASC' at line 3 in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Dashboard.php(172): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 08:14:32 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+ORDER BY `agent` ASC' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Dashboard.php(172): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 08:15:24 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+ORDER BY `agent` ASC' at line 3 in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/system/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/app/Controllers/Dashboard.php(172): CodeIgniter\Database\BaseBuilder->getWhere()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#7 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#8 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-08-31 08:15:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+ORDER BY `agent` ASC' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1718): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH/Controllers/Dashboard.php(172): CodeIgniter\Database\BaseBuilder->getWhere()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 08:19:12 --> Undefined variable $sqlQuery
+in APPPATH/Controllers/Dashboard.php on line 174.
+ 1 APPPATH/Controllers/Dashboard.php(174): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 08:19:15 --> Undefined variable $sqlQuery
+in APPPATH/Controllers/Dashboard.php on line 174.
+ 1 APPPATH/Controllers/Dashboard.php(174): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 08:19:25 --> Undefined variable $sqlQuery
+in APPPATH/Controllers/Dashboard.php on line 174.
+ 1 APPPATH/Controllers/Dashboard.php(174): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 08:36:32 --> str_replace() expects at least 3 arguments, 2 given
+in APPPATH/Views/list.php on line 27.
+ 1 APPPATH/Views/list.php(27): str_replace()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(190): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:07:12 --> Undefined array key 1
+in APPPATH/Views/list.php on line 7.
+ 1 APPPATH/Views/list.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Dashboard.php(190): view()
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->reservation()
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:22:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/Dashboard.php on line 370.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:22:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH/Controllers/Dashboard.php on line 370.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:24:59 --> Call to undefined method stdClass::getResult()
+in APPPATH/Controllers/Dashboard.php on line 378.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:26:45 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Dashboard.php on line 381.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:27:56 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Dashboard.php on line 379.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:28:20 --> Attempt to read property "agentInfo" on string
+in APPPATH/Controllers/Dashboard.php on line 379.
+ 1 APPPATH/Controllers/Dashboard.php(379): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:28:42 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Dashboard.php on line 380.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:28:58 --> Cannot access offset of type string on string
+in APPPATH/Controllers/Dashboard.php on line 380.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:29:34 --> Attempt to read property "agentInfo" on string
+in APPPATH/Controllers/Dashboard.php on line 379.
+ 1 APPPATH/Controllers/Dashboard.php(379): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:29:53 --> Attempt to read property "agentInfo" on string
+in APPPATH/Controllers/Dashboard.php on line 379.
+ 1 APPPATH/Controllers/Dashboard.php(379): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:30:31 --> Undefined variable $item
+in APPPATH/Controllers/Dashboard.php on line 378.
+ 1 APPPATH/Controllers/Dashboard.php(378): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:30:42 --> Undefined property: stdClass::$agentInfo
+in APPPATH/Controllers/Dashboard.php on line 378.
+ 1 APPPATH/Controllers/Dashboard.php(378): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:31:22 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Dashboard.php on line 378.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:31:45 --> Undefined property: stdClass::$agentInfo
+in APPPATH/Controllers/Dashboard.php on line 378.
+ 1 APPPATH/Controllers/Dashboard.php(378): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:31:47 --> Undefined property: stdClass::$agentInfo
+in APPPATH/Controllers/Dashboard.php on line 378.
+ 1 APPPATH/Controllers/Dashboard.php(378): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:32:37 --> Undefined property: stdClass::$agentInfo
+in APPPATH/Controllers/Dashboard.php on line 380.
+ 1 APPPATH/Controllers/Dashboard.php(380): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:32:55 --> Undefined property: stdClass::$agentInfo
+in APPPATH/Controllers/Dashboard.php on line 390.
+ 1 APPPATH/Controllers/Dashboard.php(390): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 18:33:05 --> Cannot use object of type stdClass as array
+in APPPATH/Controllers/Dashboard.php on line 390.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->view()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-31 18:55:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+            ORDER by total DESC' at line 21 in /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /www/wwwroot/ashkohandling.com/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /www/wwwroot/ashkohandling.com/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /www/wwwroot/ashkohandling.com/app/Controllers/Dashboard.php(64): CodeIgniter\Database\BaseConnection->query()
+#4 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(927): App\Controllers\Dashboard->index()
+#5 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/ashkohandling.com/system/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/ashkohandling.com/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-08-31 18:55:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+            ORDER by total DESC' at line 21
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH/Controllers/Dashboard.php(64): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-31 19:58:22 --> Undefined array key "images"
+in APPPATH/Controllers/Setting.php on line 149.
+ 1 APPPATH/Controllers/Setting.php(149): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Setting->gallery()
+ 3 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
