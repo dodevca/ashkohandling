@@ -6,7 +6,7 @@ class AlbumData extends Seeder
 {
 	public function run()
 	{
-        $this->db->table('airport')->insertBatch(
+        $this->db->table('airport')->insertBatch([
             [
                 'name' => 'Adam Tour',
                 'logo' => '1692988485_15fdd84a6e5647afc9b7.jpg',
@@ -90,7 +90,7 @@ class AlbumData extends Seeder
             [
                 'name' => 'Zein Tour',
                 'logo' => '1692989514_d3793246f117d9bbb19c.png'
-            ];
-        );
+            ]
+        ]);
 	}
 }

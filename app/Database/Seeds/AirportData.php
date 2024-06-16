@@ -6,7 +6,7 @@ class AirportData extends Seeder
 {
 	public function run()
 	{
-        $this->db->table('airport')->insertBatch(
+        $this->db->table('airport')->insertBatch([
             [
                 'code' => 'YIA',
                 'name' => 'Yogyakarta International Airport',
@@ -17,6 +17,6 @@ class AirportData extends Seeder
                 'name' => 'Soekarno-Hatta',
                 'city' => 'Jakarta',
             ]
-        );
+        ]);
 	}
 }
